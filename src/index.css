@@ -60,13 +60,3 @@ a {
 	background-color: black;
 	opacity: 0.3;
 }
-
-.content {
-	box-sizing: border-box;
-	color: #222;
-	margin: 0;
-	padding: 25px;
-	text-align: left;
-	float: right;
-	width: 77%;
-}
