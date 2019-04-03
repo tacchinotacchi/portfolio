@@ -1,14 +1,72 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+	height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+	background-color: #efefef;
+	margin: 0;
+	min-width: 100%;
+	height: 100%;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 1em;
+
+}
+
+.fullscreen {
+	width: 100%;
+	height: 100%;
+}
+
+.sidebar {
+	box-sizing: border-box;
+	z-index: 1;
+	background-color: #444;
+	color: #eee;
+	margin: 0;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	width: 23%;
+	height: 100%;
+	float: left;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+.sidebar h1 {
+	padding: 25px;
+}
+
+.sidebar-link {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 1.7;
+	display: block;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #eee;
+}
+
+.sidebar-link:hover {
+	background-color: black;
+	opacity: 0.1;
+}
+
+.sidebar-link.active {
+	background-color: black;
+	opacity: 0.3;
+}
+
+.content {
+	box-sizing: border-box;
+	color: #222;
+	margin: 0;
+	padding: 25px;
+	text-align: left;
+	float: right;
+	width: 77%;
 }
