@@ -41,7 +41,7 @@ class Projects extends Component {
 			),
 			new ProjectDescription(
 				require("./resources/lemin.mp4"),
-				"Lem-in is a solver for a routing problem, where a number of resources \(\"ants\"\) have to be routed from a start node to an end node, in an undirected graph where the nodes have capacity of 1 resource. "
+				"Lem-in is a solver for a routing problem, where a number of resources (\"ants\") have to be routed from a start node to an end node, in an undirected graph where the nodes have capacity of 1 resource, with the smallest amount of instructions (\"turns\") possible."
 			),
 			new ProjectDescription(
 				require("./resources/filler.mp4"), "genetic algo filler champs"

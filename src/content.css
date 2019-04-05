@@ -30,21 +30,29 @@ li .stars {
 }
 
 .projects .section {
-	height: 20em;
+	min-height: 20em;
 	margin-top: 2em;
 	margin-bottom: 2em;
-	display: table;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
 }
 
 .video-wrapper {
-	width: 35%;
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 30%;
+	min-width: 200px;
 	max-width: 400px;
-	display: table-cell;
 }
 
 .video-description-wrapper {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 70%;
 	vertical-align: top;
-	display: table-cell;
 }
 
 .video-description {
@@ -55,7 +63,13 @@ li .stars {
 	max-width: 100%;
 }
 
+.table-padding {
+	display: table-cell;
+	min-width: 99%;
+}
+
 video {
+	object-fit: cover;
 	height: auto;
 	max-width: 100%;
 }
