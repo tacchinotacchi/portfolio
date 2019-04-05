@@ -4,8 +4,9 @@
 	margin: 0;
 	padding: 25px;
 	text-align: left;
-	float: right;
-	width: 77%;
+	position: absolute;
+	top: 0;
+	left: 25em;
 }
 
 .content h1 {
@@ -52,6 +53,7 @@ li .stars {
 	flex-grow: 1;
 	flex-shrink: 1;
 	flex-basis: 70%;
+	max-width: 75em;
 	vertical-align: top;
 }
 
