@@ -5,7 +5,7 @@ import {
 	HashRouter
 } from "react-router-dom";
 import Home from "./Home";
-import Stuff from "./Stuff";
+import Projects from "./Projects";
 import Contact from "./Contact";
 
 class Main extends Component {
@@ -16,12 +16,12 @@ class Main extends Component {
 				<h1>Alex Amadori</h1>
 				<div className="header">
 				<NavLink className="sidebar-link" exact to="/">Home</NavLink>
-				<NavLink className="sidebar-link" to="/stuff">Stuff</NavLink>
+				<NavLink className="sidebar-link" to="/stuff">Projects</NavLink>
 				<NavLink className="sidebar-link" to="/contact">Contact</NavLink>
 				</div>
 			</div><div className="content">
 				<Route exact path="/"  component={Home}/>
-				<Route path="/stuff"  component={Stuff}/>
+				<Route path="/stuff"  component={Projects}/>
 				<Route path="/contact"  component={Contact}/>
 			</div>
 			</HashRouter>

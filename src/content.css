@@ -24,3 +24,38 @@ li .stars {
 	font-size: 1.1em;
 	margin-bottom: 10px;
 }
+
+.projects {
+	display: block;
+}
+
+.projects .section {
+	height: 20em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	display: table;
+}
+
+.video-wrapper {
+	width: 35%;
+	max-width: 400px;
+	display: table-cell;
+}
+
+.video-description-wrapper {
+	vertical-align: top;
+	display: table-cell;
+}
+
+.video-description {
+	margin: 1em;
+	font-size: 1.15em;
+	text-align: left;
+	vertical-align: top;
+	max-width: 100%;
+}
+
+video {
+	height: auto;
+	max-width: 100%;
+}

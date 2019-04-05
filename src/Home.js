@@ -6,6 +6,7 @@ class Home extends Component {
 		return (
 			<div class="profile">
 				<h1>Profile and Contacts</h1>
+				<p>#TODO profile links</p>
 				<p>
 					19 years old student at Ecole 42 (Paris) and professional coffee drinker, Alex Amadori.
 					My specialty is turning raw caffeine into clean code. I will make your code reviewers happy, and your coffee provider happier.
@@ -21,14 +22,16 @@ class Home extends Component {
 					<li>C# <Stars score={5}/></li>
 					<li>GLSL <Stars score={5}/></li>
 				</ul>
+				<p>Misc knowledge: Computer Science maths, TODO Statistics, Complexity</p>
 				<p>Human Languages:</p>
 				<ul style={{ width: '25%'}}>
 					<li>English <Stars score={10}/></li>
 					<li>Italian <Stars score={10}/></li>
+					<li>Japanese <Stars score={3}/></li>
 					<li>French <Stars score={2}/></li>
-					<li>Japanese <Stars score={2}/></li>
 				</ul>
-				<p>Hobbies: conding, coffee drinking, languages, binge-watching anything CyberPunk, listening to old-timey electro</p>
+				<p>Hobbies: coding, coffee drinking, languages, binge-watching anything CyberPunk, listening to old-timey electro</p>
+				<p>#TODO profile links</p>
 				<p>&lt;- Click somewhere on the sidebar to see some cool stuff</p>
 			</div>
 		)

@@ -6,16 +6,12 @@ import {
 } from "react-icons/fa";
 
 class Stars extends Component {
-	constructor(props) {
-		super(props)
-		this.score = props.score
-	}
 	renderStars() {
 		let stars = []
 		for (let i = 1; i <= 5; i++) {
-			if (this.score >= i * 2)
+			if (this.props.score >= i * 2)
 				stars.push(<FaStar/>)
-			else if (this.score === (i * 2) - 1)
+			else if (this.props.score === (i * 2) - 1)
 				stars.push(<FaStarHalfAlt/>)
 			else
 				stars.push(<FaRegStar/>)
