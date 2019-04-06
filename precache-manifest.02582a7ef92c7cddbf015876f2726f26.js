@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/filler.296b4549.mp4"
   },
   {
-    "revision": "e458ff23a5d1b022a0a627a228a6573c",
+    "revision": "76df5f8308ad4ce1932865d6636812b0",
     "url": "/portfolio/index.html"
   }
 ];
