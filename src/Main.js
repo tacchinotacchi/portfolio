@@ -17,12 +17,10 @@ class Main extends Component {
 				<div className="header">
 				<NavLink className="sidebar-link" exact to="/">Home</NavLink>
 				<NavLink className="sidebar-link" to="/stuff">Projects</NavLink>
-				<NavLink className="sidebar-link" to="/contact">Contact</NavLink>
 				</div>
 			</div><div className="content">
 				<Route exact path="/"  component={Home}/>
 				<Route path="/stuff"  component={Projects}/>
-				<Route path="/contact"  component={Contact}/>
 			</div>
 			</HashRouter>
 		)
