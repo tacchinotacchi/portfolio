@@ -64,17 +64,19 @@ class Projects extends Component {
 				("turns") possible. The lowest cost solution is found by first computing the min-cost max-flow of the graph, and then
 				scheduling the movement of the resources with a greedy algorithm to parallelize the instructions as much as possible.
 				In order to facilitate debugging and visualization, the 3d visualizer uses linear regression to try and find a configuration
-				with optimal distances for connected and non connected nodes, trying to make paths more easily visible."
+				with optimal distances for connected and non connected nodes, trying to make paths more easily visible.
 			</div>,
 			<div>
-				"In the game of <a href="https://github.com/tacchinotacchi/filler_evolver">Filler</a>, two "champions" use random tetris-like pieces supplied randomly
+				In the game of <a href="https://github.com/tacchinotacchi/filler_evolver">Filler</a>, two "champions" use random tetris-like pieces supplied randomly
 				to try and conquer as much of the field as possible. While a basic min-max algorithm can go a long way,
 				due to the randomness of the game it's impossible to look more than one move ahead. In order to get a statistical
 				advantage, fuzzy parameters can be introduced to the algorithm and then evolved with a genetic algorithm.
 				Simulating games takes more computing power than it looks, however due to the number of parameters a handful
-				of generations are enough to get good results."
+				of generations are enough to get good results.
 			</div>,
-			<div>42 holy tree</div>,
+			<div>
+				List of projects completed at 42:
+			</div>,
 			<div>Corewars coming soon!</div>
 		]
 		let projects = [
